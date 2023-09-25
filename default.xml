@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="origin"
+           fetch="https://github.com/Jacksliwen" />
+
+  <default revision="main"
+           remote="origin"
+           sync-c="true"
+           sync-j="4" />
+
+  <!-- c++ -->
+  <project path="cpp_Project_Init" name="cpp_Project_Init" groups="cpp" />
+  <project path="cpp_UtilityFunc" name="cpp_UtilityFunc" groups="cpp" />
+  <project path="cpp_mysql_driver" name="cpp_mysql_driver" groups="cpp" />
+  <project path="cpp_SampleTest" name="cpp_SampleTest" groups="cpp" />
+
+  <!-- golang -->
+  <project path="go_UtilityFunc" name="go_UtilityFunc" groups="go" />
+  <project path="go_SimilaritySearch" name="go_SimilaritySearch" groups="go" />
+
+  <!-- python -->
+  <project path="py-consul-control" name="py-consul-control" groups="py" />
+  <project path="py-mongo-control" name="py-mongo-control" groups="py" />
+
+  <!-- qt -->
+  <project path="QT_samll_tool" name="QT_samll_tool" groups="qt" />
+
+  <!-- wechat -->
+  <project path="WeChat_HouseWare" name="WeChat_HouseWare" groups="wechat" />
+
+   <!-- others -->
+  <project path="others" name="others" groups="others" />
+  <project path="manifest" name="manifest" />
+</manifest>
